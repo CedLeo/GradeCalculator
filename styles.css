@@ -82,6 +82,10 @@ input::-webkit-inner-spin-button {
     .title{
         font-size: 12px;
     }
+    button{
+        font-size: 13px;
+        width: 80px;
+    }
     button:nth-of-type(2){
         left: 20%;
     }
@@ -96,6 +100,10 @@ input::-webkit-inner-spin-button {
         width: 90%;
         font-size: 10px;
         text-transform: none;
+    }
+    .row-item p{
+        text-align: center;
+        font-size: 8px;
     }
     input{
         width: 100%;
