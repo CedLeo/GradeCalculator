@@ -13,7 +13,7 @@ function addRow() {
         <div class="row-item subject-name"><input type="text" placeholder="Subject Name"></div>
         <div class="row-item subject-units"><input type="number" placeholder="Units" class="unit-input"></div>
         <div class="row-item subject-grade"><input type="number" placeholder="Grade" class="grade-input"></div>
-        <div class="row-item grade-converted"><p></p></div>
+        <div class="row-item grade-converted"><p id="gradeConverted"></p></div>
     `;
     gradeTable.appendChild(newRow);
 
